@@ -1,0 +1,24 @@
+#include "stdafx.h"
+
+int main(){
+	int penny = 0;
+	int nickel = 0;
+	int dime  = 0;
+	int quarter = 0;
+	int sum  = 0;
+
+	printf("Please enter how many coins you have \n");
+	scanf("%d", &quarter);
+	scanf("%d", &dime);
+	scanf("%d", &nickel);
+	scanf("%d", &penny);
+		
+
+	sum = penny + 5*nickel + 10*dime + 25*quarter;
+
+	printf("%d",sum);
+
+
+	return 0;
+}
+
